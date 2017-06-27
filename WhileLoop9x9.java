@@ -9,10 +9,10 @@ public class WhileLoop9x9 {
 			while (b <= 9) {
 				c = a * b;
 				// System.out.print(a+"*"+b+"="+c+" ");
-				if ((a * b) < 10) {
-					System.out.print(a + "*" + b + "=" + "0" + c + " ");
+				if (c < 10) {
+					System.out.print(a + "x" + b + "=" + " " + c + "	");
 				} else {
-					System.out.print(a + "*" + b + "=" + c + " ");
+					System.out.print(a + "x" + b + "=" + c + "	");
 				}
 				b++;
 			}
